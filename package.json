@@ -1,5 +1,5 @@
 {
-  "name": "cdk-serverless-backend",
+  "name": "serverless-backend",
   "scripts": {
     "clobber": "npx projen clobber",
     "compile": "npx projen compile",
@@ -25,6 +25,7 @@
     "@typescript-eslint/parser": "^4.28.5",
     "aws-cdk": "^1.95.2",
     "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-node": "^0.3.4",
     "eslint-import-resolver-typescript": "^2.4.0",
     "eslint-plugin-import": "^2.23.4",
@@ -39,6 +40,16 @@
   },
   "dependencies": {
     "@aws-cdk/assert": "^1.95.2",
+    "@aws-cdk/aws-apigateway": "^1.95.2",
+    "@aws-cdk/aws-apigatewayv2": "^1.95.2",
+    "@aws-cdk/aws-apigatewayv2-authorizers": "^1.95.2",
+    "@aws-cdk/aws-apigatewayv2-integrations": "^1.95.2",
+    "@aws-cdk/aws-cognito": "^1.95.2",
+    "@aws-cdk/aws-dynamodb": "^1.95.2",
+    "@aws-cdk/aws-lambda": "^1.95.2",
+    "@aws-cdk/aws-lambda-python": "^1.95.2",
+    "@aws-cdk/aws-s3": "^1.95.2",
+    "@aws-cdk/aws-ssm": "^1.95.2",
     "@aws-cdk/core": "^1.95.2"
   },
   "bundledDependencies": [],
